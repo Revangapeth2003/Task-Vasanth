@@ -45,7 +45,7 @@ const Edit = () => {
           setImagePreview(data.image);
         }
       } catch (err) {
-        console.error('❌ Error fetching employee:', err);
+        console.error(' Error fetching employee:', err);
         toast.error('Failed to fetch employee');
       }
     };
@@ -114,7 +114,7 @@ const Edit = () => {
         toast.error('Failed to update employee');
       }
     } catch (err) {
-      console.error('❌ Update Error:', err);
+      console.error(' Update Error:', err);
       toast.error('Update failed');
     }
   };
